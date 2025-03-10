@@ -1,3 +1,17 @@
+# Expo Router
+
+How the stack work
+
+- ["Screen A", "Screen B", "Screen C", "Screen D"] if all stacks are inside tab navigator
+- [["Screen A", "Screen B"], ["Screen C", "Screen D"]] if Screen A & B and Screen C & B are inside tab navigator separately
+
+## route
+
+- navigate: Reuses existing stacks
+- push: Always adds new stack
+- back: go back to previous stack and remove current stack
+-
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
